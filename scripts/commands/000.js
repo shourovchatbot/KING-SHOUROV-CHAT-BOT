@@ -1,5 +1,5 @@
 module.exports.config = {
-    name: "admin2",
+    name: "admin",
     version: "1.0.0",
     permission: 0,
     credits: "nayan",
@@ -28,14 +28,14 @@ var juswa = moment.tz("Asia/Dhaka").format("『D/MM/YYYY』 【hh:mm:ss】");
   
 var callback = () => api.sendMessage({body:`
 --------------------------------------------
-𝐍𝐚𝐦𝐞       :
-𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 : 
+𝐍𝐚𝐦𝐞       : king shourov
+𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 : https://www.facebook.com/broken.shourov.ss?
 𝐑𝐞𝐥𝐢𝐠𝐢𝐨𝐧   : 𝐈𝐬𝐥𝐚𝐦
 𝐏𝐞𝐫𝐦𝐚𝐧𝐞𝐧𝐭 𝐀𝐝𝐝𝐫𝐞𝐬𝐬: rangpur, Dhaka, Bangladesh 
 𝐂𝐮𝐫𝐫𝐞𝐧𝐭 𝐀𝐝𝐝𝐫𝐞𝐬𝐬: Bola jabe na
-𝐆𝐞𝐧𝐝𝐞𝐫.   : 
+𝐆𝐞𝐧𝐝𝐞𝐫.   : male
 𝐀𝐠𝐞           :18+
-𝐑𝐞𝐥𝐚𝐭𝐢𝐨𝐧𝐬𝐡𝐢𝐩 : 
+𝐑𝐞𝐥𝐚𝐭𝐢𝐨𝐧𝐬𝐡𝐢𝐩 : single jibon
 𝐖𝐨𝐫𝐤        : 𝐒𝐭𝐮𝐝𝐞𝐧𝐭
 𝐆𝐦𝐚𝐢𝐥       : shourovislam5430@gmail.com
 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩: wa.me/+8801709281334
