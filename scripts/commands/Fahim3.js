@@ -26,7 +26,7 @@ const media = (
 
 	if (body.indexOf("😿")==0 || body.indexOf("😹")==0) {
 		var msg = {
-				body: "Md Fahim islam ",
+				body: "KING SHOUROV ",
 				attachment: media
 			}
 			api.sendMessage( msg, threadID, messageID);
