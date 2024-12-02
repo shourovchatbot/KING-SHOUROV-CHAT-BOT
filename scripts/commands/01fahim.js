@@ -19,7 +19,7 @@ handleEvent: async function({ api, event, client, __GLOBAL }) {
   const axios = require('axios')
 const media = (
     await axios.get(
-      'https://imgur.com/tUuTeXT',
+      'https://i.imgur.com/H8qMHWw.mp4',
       { responseType: 'stream' }
     )
   ).data;
