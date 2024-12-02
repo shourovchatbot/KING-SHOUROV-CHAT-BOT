@@ -19,15 +19,15 @@ const time = process.uptime(),
     seconds = Math.floor(time % 60);
 const moment = require("moment-timezone");
 var juswa = moment.tz("Asia/Dhaka").format("『D/MM/YYYY』 【hh:mm:ss】");
-var link = ["https://imgur.com/a/DkHQBji",
+var link = ["",
 
-            "https://imgur.com/a/DkHQBji", 
+            "", 
 
-            "https://imgur.com/a/DkHQBji",
+            "",
 
-"https://imgur.com/a/DkHQBji",
+"",
 
-            "https://imgur.com/a/DkHQBji"];
+            ""];
 
 var callback = () => api.sendMessage({body:`আসসালামু আলাইকুম 
 "༆ভাঁলোঁবাঁসাঁরঁ𝄟ক্যাঁম্পাঁসঁ ࿐ꔹꕥꔷ◥»̶̶͓͓͓̽̽̽𝄞⋆⃝🌺প⋆⃝🌸࿐" 
@@ -47,6 +47,6 @@ var callback = () => api.sendMessage({body:`আসসালামু আলা�
 
 ༆ভাঁলোঁবাঁসাঁরঁ𝄟ক্যাঁম্পাঁসঁ ࿐ꔹꕥꔷ»̶̶͓͓͓̽̽̽𝄞⋆⃝🌺𝄞⋆⃝🌸࿐ ফ্যামেলি গ্ৰুপের পক্ষ থেকে আপনাকে  জানায় ভালবাসা  অভিরাম_____💯🌸
 
-          🌸💯______𝐂𝐄𝐎______💯🌸 ............ . 𝐊𝐈𝐍𝐆 𝐒𝐇𝐎𝐔𝐑𝐎𝐕 `,attachment: fs.createReadStream(__dirname + "/cache/juswa.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/juswa.jpg")); 
+          🌸💯______𝐂𝐄𝐎______💯🌸 ............ . KING SHOUROV `,attachment: fs.createReadStream(__dirname + "/cache/juswa.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/juswa.jpg")); 
       return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname+"/cache/juswa.jpg")).on("close",() => callback());
    };
